@@ -23,5 +23,10 @@
   "devDependencies": {
     "@types/chai": "^4.3.5",
     "@types/jsonpath": "^0.2.0"
+  },
+  "overrides": {
+    "js-yaml": "4.1.1",
+    "brace-expansion@^1.0.0": "1.1.12",
+    "brace-expansion@^2.0.0": "2.0.2"
   }
 }
