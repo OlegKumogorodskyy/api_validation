@@ -1,6 +1,7 @@
 name: Refresh security lockfile
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - security/fix-dependency-alerts
